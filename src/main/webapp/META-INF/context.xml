@@ -1,0 +1,9 @@
+<Context>
+    <Resource name="jdbc/shoptest" auth="Container"
+              driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://ec2-54-235-98-1.compute-1.amazonaws.com:5432/dfeseieja52qb8?sslmode=require"
+              username="nrprnwnrzwnulp" password="816876c29ce67b11f5cb61886c0f7eaa681cec992fec728f1da6aa0bf2d6add4"
+              maxActive="20" maxIdle="0" maxWait="100"
+              logAbandoned="true" removeAbandoned="true"
+              removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+</Context>
